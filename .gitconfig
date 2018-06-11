@@ -1,0 +1,19 @@
+[user]
+	name = kickscondor
+	email = kicks@kickscondor.com
+[alias]
+	ci = commit -a
+	co = checkout
+	st = status
+	ch = cherry -v origin
+	sup = submodule foreach --recursive git pull origin master
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[push]
+	default = matching
+[core]
+	pager = diff-so-fancy | less --tabs=1,5 -R
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

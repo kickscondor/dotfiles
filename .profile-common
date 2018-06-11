@@ -1,0 +1,16 @@
+# user information
+DEFAULT_USER=kicks; export DEFAULT_USER
+IRCNICK=kicks; export IRCNICK
+IRCNAME="Kicks Condor"; export IRCNAME
+IRCSERVER=irc.freenode.net; export IRCSERVER
+
+# environment vars
+LANG="en_US.UTF-8"; export LANG
+MM_CHARSET="UTF-8"; export MM_CHARSET
+BLOCKSIZE=K;	export BLOCKSIZE
+EDITOR=vim;   	export EDITOR
+EMAIL="kicks@kickscondor.com"; export EMAIL
+PATH=~/bin:$PATH; export PATH
+
+# by default, group write
+umask 002
