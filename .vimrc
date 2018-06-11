@@ -23,7 +23,7 @@ filetype plugin indent on    " required
 set backspace=2           " enable <BS> for everything
 set colorcolumn=80        " visual indicator of column
 set completeopt-=preview  " dont show preview window
-set fcs=vert:¦,fold:-     " solid instead of broken line for vert splits
+set fcs=vert:|,fold:-     " solid instead of broken line for vert splits
 set grepprg=grep\ -nH\ $* " always generate a filename, for vim-latexsuite
 set hidden                " hide when switching buffers, don't unload
 set laststatus=2          " always show status line
