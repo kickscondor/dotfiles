@@ -5,10 +5,13 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="gallois"
 
 # no auto titling
-DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE=true
+
+# autostart tmux
+ZSH_TMUX_AUTOSTART=true
 
 # plugins
-plugins=(git tmux rsync z)
+plugins=(git tmux rsync ubuntu vundle z)
 
 # load oh my zsh (love the 'd' command and such!)
 source $ZSH/oh-my-zsh.sh
