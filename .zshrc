@@ -8,7 +8,7 @@ ZSH_THEME="gallois"
 DISABLE_AUTO_TITLE="true"
 
 # plugins
-plugins=(git tmux rsync)
+plugins=(git tmux rsync z)
 
 # load oh my zsh (love the 'd' command and such!)
 source $ZSH/oh-my-zsh.sh
